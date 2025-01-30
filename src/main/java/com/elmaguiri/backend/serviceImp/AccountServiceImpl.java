@@ -63,7 +63,7 @@ public class AccountServiceImpl implements AccountService {
                 "Si vous avez des questions ou besoin d'aide, n'hésitez pas à contacter notre équipe de support à [Insérer l'email/le numéro de téléphone du support].\n" +
                 "\n" +
                 "Cordialement,";
-        sendEmailService.sendEmail(user.getMail(),"Bienvenue chez Cabinet d’experts comptables El Maguiri & Associés! Vos informations de compte",body);
+//       // sendEmailService.sendEmail(user.getMail(),"Bienvenue chez Cabinet d’experts comptables El Maguiri & Associés! Vos informations de compte",body);
         return modelMapperConfig.fromUser(savedUser);
     }
 

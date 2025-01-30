@@ -86,7 +86,6 @@ public class Client {
     @Column(name = "end_date")
     private LocalDate endDate;
 
-
     @Column(name = "firstAppointment")
     private LocalDate firstAppointment;
 
